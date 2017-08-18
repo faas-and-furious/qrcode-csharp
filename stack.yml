@@ -1,0 +1,9 @@
+provider:  
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  qrcode:
+    lang: csharp
+    handler: ./qrcode/
+    image: faas-qrcode
