@@ -15,8 +15,8 @@ You can install the [faas-cli](https://github.com/alexellis/faas-cli/) via `brew
 Build and deploy your stack using the following commands:
 
 ```
-$ faas-cli -action build -f ./test.yml
-$ faas-cli -action deploy -f ./test.yml
+$ faas-cli -action build -f ./stack.yml
+$ faas-cli -action deploy -f ./stack.yml
 ```
 
 **Test**
